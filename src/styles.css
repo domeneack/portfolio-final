@@ -6,6 +6,7 @@
 }
 body {
   font-family: var(--default-font-family);
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -121,7 +122,7 @@ p {
 
 .self-portrait {
   margin: 260px 200px;
-  max-width: 100%;
+  max-width: 60%;
   border-radius: 10px;
   box-shadow: 2px 6px 42px -13px rgba(0, 0, 0, 0.84);
 }
