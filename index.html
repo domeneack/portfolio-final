@@ -6,6 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Domeneack is a front-end web developer based in the United States">
+
+    <!--Favicon-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+
+    <!--Stylesheets-->
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +27,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/3524428adf.js" crossorigin="anonymous"></script>
+
+
+
     <title>Front-end developer: Domeneack Foster</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
+<!--Nav Bar-->
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand active" href="index.html">Domeneack Foster</a>
@@ -34,7 +52,7 @@
                     <a class="nav-link" href="about.html">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="work.html">My Work</a>
+                    <a class="nav-link" aria-current="page" href="#container">My Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact me</a>
@@ -45,6 +63,9 @@
 </nav>
 
 <body>
+
+    <!-- Introduction -->
+
     <div class="hero">
         <p>👋🏾 Hi I am</p>
         <h1>Domeneack Foster</h1>
@@ -53,8 +74,11 @@
             <a href="contact.html" class="btn btn-branding">Contact me</a>
         </div>
     </div>
+
+    <!--Project Container-->
+
     <p class="text-center m-5 text-muted">Some of my projects featured below</p>
-    <div class="container">
+    <div class="container" id="container">
         <div class="row mb-5">
             <div class="col  d-none d-lg-block">
                 <img class="img-fluid border shadow-lg p-3  bg-body-tertiary rounded" src="images/ramen-app2.png"
@@ -64,17 +88,10 @@
             <div class="col">
                 <div class="project-description">
                     <h2 class="mb-5">Ramen Project</h2>
-                    <p class="mb-4 text-muted">Far far away, behind the word mountains, far from the countries Vokalia
-                        and
-                        Consonantia,
-                        there live the
-                        blind texts.
-                        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                        ocean. A
-                        small river
-                        named
-                        Duden flows by</p>
-                    <a href="#" class="btn btn-projects">Learn more</a>
+                    <p class="mb-4 text-muted">Using HTML, CSS, and Javascrpit I created this landing page to share with
+                        you one of my favorite dishes. Traditional Japanese ramen! 🍜</p>
+                    <a href="https://taupe-souffle-b7a67b.netlify.app/" target="_blank" class="btn btn-projects">Learn
+                        more</a>
                 </div>
             </div>
         </div>
@@ -82,17 +99,10 @@
             <div class="col">
                 <div class="project-description">
                     <h2 class="mb-5">Weather Project</h2>
-                    <p class="mb-4 text-muted">Far far away, behind the word mountains, far from the countries Vokalia
-                        and
-                        Consonantia,
-                        there live the
-                        blind texts.
-                        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                        ocean. A
-                        small river
-                        named
-                        Duden flows by</p>
-                    <a href="#" class="btn btn-projects">Learn more</a>
+                    <p class="mb-4 text-muted">Responsive Weather Application created using HTML, CSS, Javascrpit, and
+                        Open weather API.🌦</p>
+                    <a href="https://shiny-manatee-517063.netlify.app/" target="_blank" class="btn btn-projects">Learn
+                        more</a>
                 </div>
             </div>
             <div class="col d-none d-lg-block">
@@ -102,56 +112,72 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col  d-none d-lg-block">
-                <img class="img-fluid border shadow-lg p-3  bg-body-tertiary rounded" src="images/dictionary.png"
-                    alt="ramen">
+            <div class="col d-none d-lg-block">
+                <img class="weather-image img-fluid border shadow-lg p-3 mb-5 bg-body-tertiary rounded"
+                    src="images/Reactweather.png" alt="weather">
 
             </div>
+
             <div class="col">
                 <div class="project-description">
-                    <h2 class="mb-5">Dictionary Project</h2>
-                    <p class="mb-4 text-muted">Far far away, behind the word mountains, far from the countries Vokalia
-                        and
-                        Consonantia,
-                        there live the
-                        blind texts.
-                        Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                        ocean. A
-                        small river
-                        named
-                        Duden flows by</p>
-                    <a href="#" class="btn btn-projects">Learn more</a>
+                    <h2 class="mb-5"> React Weather Application</h2>
+                    <p class="mb-4 text-muted">Weather application created with Node.js and React.js.🌤</p>
+                    <a href="https://willowy-squirrel-9a862d.netlify.app/" target="_blank"
+                        class="btn btn-projects">Learn
+                        more</a>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-                <div>
-                    <h4>Work Inquiry</h4>
-                    <p class="text-muted">Let's work together</p>
+
+
+        <div class="row mb-5">
+            <div class="col">
+                <div class="project-description">
+                    <h2 class="mb-5">Static Web Application</h2>
+                    <p class="mb-4 text-muted">Fun subscription based web application for doggie dating.🐾</p>
+                    <a href="https://beautiful-starship-83302a.netlify.app/" target="_blank"
+                        class="btn btn-projects">Learn
+                        more</a>
                 </div>
-                <div>
-                    <a href="contact.html" class="btn btn-branding" title="Contact Domeneack">Contact me</a>
-                </div>
             </div>
-            <div class="d-flex justify-content-center mb-5">
-                <a href="mailto:domeneack@gmail.com" target="_blank" class="email-link">domeneack@gmail.com</a>
+
+
+            <div class="col  d-none d-lg-block">
+                <img class="img-fluid border shadow-lg p-3  mb-5 bg-body-tertiary rounded" src="images/TinDog.png"
+                    alt="ramen">
             </div>
-            <div class="social-links d-flex justify-content-center mb-5">
-                <a href="https:www.instagram.com/drp_d" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://github.com/domeneack/portfolio-final" target="_blank" title="github profile"><i
-                        class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://twitter.com/DomeneackF" target="_blank">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
+        </div>
+
+    </div>
+    </div>
+    <footer>
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+            <div>
+                <h4>Work Inquiry</h4>
+                <p class="text-muted">Let's work together</p>
             </div>
-            <p class="mt-4 text-center">👍🏾 This project was coded by Domeneack Foster, and it is <a
-                    href="https://github.com/domeneack/portfolio-final" target="_blank">open-sourced</a>
-            </p>
-        </footer>
+            <div>
+                <a href="contact.html" class="btn btn-branding" title="Contact Domeneack">Contact me</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:domeneack@gmail.com" target="_blank" class="email-link">domeneack@gmail.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+            <a href="https:www.instagram.com/drp_d" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/domeneack/portfolio-final" target="_blank" title="github profile"><i
+                    class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://twitter.com/DomeneackF" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+        <p class="mt-4 text-center">👍🏾 This project was coded by Domeneack Foster, and it is <a
+                href="https://github.com/domeneack/portfolio-final" target="_blank">open-sourced</a>
+        </p>
+    </footer>
     </div>
 
 </body>
